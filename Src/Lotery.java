@@ -16,11 +16,11 @@ public class Lotery {
             sum2 = random.nextInt();
         }
 
-        System.out.println(Arrays.toString(lotoreya));
-        System.out.println(Arrays.toString(player));
-
         Arrays.sort(lotoreya);
         Arrays.sort(player);
+        System.out.println(Arrays.toString(player));
+        System.out.println(Arrays.toString(lotoreya));
+
 
         System.out.println("Совпадения ");
         while (sum < lotoreya.length && sum2 < player.length ){
